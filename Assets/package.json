@@ -1,0 +1,25 @@
+{
+    "name": "com.mgs.barcode",
+    "version": "1.0.0",
+    "displayName": "Barcode",
+    "description": "Barcode generate and scan in Unity project.",
+    "unity": "2021.3",
+    "keywords": [
+        "barcode",
+        "QR code",
+        "generate",
+        "scan"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    },
+    "samples": [
+        {
+            "displayName": "QRCode",
+            "description": "Sample for QRCode",
+            "path": "Samples~/QRCode"
+        }
+    ]
+}
