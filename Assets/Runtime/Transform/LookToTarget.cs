@@ -1,12 +1,12 @@
 /*************************************************************************
  *  Copyright © 2026 Mogoson All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  FaceToTarget.cs
+ *  File         :  LookToTarget.cs
  *  Description  :  Default.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0.0
- *  Date         :  06/13/2026
+ *  Date         :  06/15/2026
  *  Description  :  Initial development version.
  *************************************************************************/
 
@@ -14,24 +14,35 @@ using UnityEngine;
 
 namespace MGS.AdaptiveBehaviour
 {
-    public class FaceToTarget : LookToTarget
+    public enum LookMode
     {
-        public Vector3 posOffset;
+        Yaw,
+        Pitch,
+        All
+    }
+
+    public class LookToTarget : AdaptiveBehaviourPro
+    {
+        public LookMode mode;
+        public bool inverse;
 
         public override void Adapt()
         {
-            var faceDir = target.forward;
+            var lookDir = (target.position - transform.position).normalized;
             if (mode == LookMode.Yaw)
             {
-                faceDir.y = 0;
+                lookDir.y = 0;
             }
             else if (mode == LookMode.Pitch)
             {
-                faceDir.x = 0;
+                lookDir.x = 0;
             }
-            var faceRot = Quaternion.LookRotation(faceDir);
-            transform.position = target.position + faceRot * posOffset;
-            base.Adapt();
+            if (inverse)
+            {
+                lookDir = -lookDir;
+            }
+            var lookRot = Quaternion.LookRotation(lookDir);
+            transform.rotation = lookRot;
         }
     }
 }
