@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
     public enum LookMode
     {
@@ -21,7 +21,7 @@ namespace MGS.AdaptiveBehaviour
         All
     }
 
-    public class LookToTarget : AdaptiveBehaviourPro
+    public class LookToTarget : AdaptivePro
     {
         public LookMode mode;
         public bool inverse;

@@ -1,14 +1,14 @@
 {
-    "name": "com.mgs.barcode",
+    "name": "com.mgs.adaptive",
     "version": "1.0.0",
-    "displayName": "Barcode",
-    "description": "Barcode generate and scan in Unity project.",
+    "displayName": "Adaptive",
+    "description": "Adaptive MonoBehaviour for Unity project.",
     "unity": "2021.3",
     "keywords": [
-        "barcode",
-        "QR code",
-        "generate",
-        "scan"
+        "Adaptive",
+        "Face",
+        "Look",
+        "Size"
     ],
     "author": {
         "name": "Mogoson",
@@ -17,9 +17,9 @@
     },
     "samples": [
         {
-            "displayName": "QRCode",
-            "description": "Sample for QRCode",
-            "path": "Samples~/QRCode"
+            "displayName": "Sample",
+            "description": "Sample for adaptive monoBehaviours",
+            "path": "Samples~/Sample"
         }
     ]
 }

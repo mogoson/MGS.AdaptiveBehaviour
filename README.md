@@ -1,4 +1,4 @@
-# MGS.AdaptiveBehaviour
+# MGS.Adaptive
 
 ## Summary
 
@@ -15,11 +15,11 @@ Adaptive MonoBehaviour for Unity project.
 - Unity --> Window --> Package Manager --> "+" --> Add package from git URL...
 
   ```text
-  https://github.com/mogoson/MGS.AdaptiveBehaviour.git?path=/Assets
+  https://github.com/mogoson/MGS.Adaptive.git?path=/Assets
   ```
 ## Samples
 
-- Unity --> Window --> Package Manager --> Packages-Mogoson --> AdaptiveBehaviour --> Samples.
+- Unity --> Window --> Package Manager --> Packages-Mogoson --> Adaptive --> Samples.
 
 ---
 

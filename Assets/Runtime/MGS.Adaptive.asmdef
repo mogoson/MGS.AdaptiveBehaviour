@@ -1,6 +1,6 @@
 {
-    "name": "MGS.AdaptiveBehaviour",
-    "rootNamespace": "MGS.AdaptiveBehaviour",
+    "name": "MGS.Adaptive",
+    "rootNamespace": "MGS.Adaptive",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

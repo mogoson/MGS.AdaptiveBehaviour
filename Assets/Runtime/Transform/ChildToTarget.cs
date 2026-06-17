@@ -12,9 +12,9 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
-    public class ChildToTarget : AdaptiveBehaviour
+    public class ChildToTarget : Adaptive
     {
         public Vector3 posOffset;
         public Vector3 rotOffset;

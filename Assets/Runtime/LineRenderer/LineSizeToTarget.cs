@@ -12,10 +12,10 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
     [RequireComponent(typeof(LineRenderer))]
-    public class LineSizeToTarget : AdaptiveBehaviourPro
+    public class LineSizeToTarget : AdaptivePro
     {
         [Tooltip("Visual angle (rad)")]
         public float angle = 0.05f;

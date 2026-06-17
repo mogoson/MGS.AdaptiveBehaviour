@@ -1,7 +1,7 @@
 /*************************************************************************
  *  Copyright © 2026 Mogoson All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  AdaptiveBehaviour.cs
+ *  File         :  Adaptive.cs
  *  Description  :  Default.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -12,9 +12,9 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
-    public abstract class AdaptiveBehaviour : MonoBehaviour, IAdaptiveBehaviour
+    public abstract class Adaptive : MonoBehaviour, IAdaptive
     {
         public Transform target;
 
@@ -29,7 +29,7 @@ namespace MGS.AdaptiveBehaviour
         public abstract void Adapt();
     }
 
-    public abstract class AdaptiveBehaviourPro : AdaptiveBehaviour
+    public abstract class AdaptivePro : Adaptive
     {
         public bool always = true;
 

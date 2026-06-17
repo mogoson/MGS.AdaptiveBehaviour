@@ -12,9 +12,9 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
-    public class SizeToTarget : AdaptiveBehaviourPro
+    public class SizeToTarget : AdaptivePro
     {
         [Tooltip("Visual angle (rad)")]
         public float angle = 0.05f;

@@ -1,7 +1,7 @@
 /*************************************************************************
  *  Copyright © 2026 Mogoson All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  IAdaptiveBehaviour.cs
+ *  File         :  IAdaptive.cs
  *  Description  :  Default.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -10,9 +10,9 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
-    public interface IAdaptiveBehaviour
+    public interface IAdaptive
     {
         void Adapt();
     }

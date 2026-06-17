@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace MGS.AdaptiveBehaviour
+namespace MGS.Adaptive
 {
     public class FaceToTarget : LookToTarget
     {
